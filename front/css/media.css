@@ -1,0 +1,568 @@
+@media screen and (max-width: 1230px) {
+  footer .footer_inner .menu {
+    margin-right: 15px;
+  }
+  footer .footer_inner .personal_account {
+    margin-right: 15px;
+  }
+  .paym_met_flex {
+    grid-gap: 15px;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .menu .menu-item {
+    margin-right: 10px;
+  }
+  .menu .menu-item a {
+    font-size: 13px;
+  }
+  .header_inner .logo {
+    width: 125px;
+    height: 40px;
+  }
+  .header_inner {
+    padding: 17px 0 17px;
+  }
+  .header_inner .right_header_part .orange_btn {
+    margin-right: 12px;
+  }
+  .orange_btn {
+    padding: 15px 19px;
+  }
+  .purple_btn {
+    padding: 15px 19px;
+  }
+  .slider_sec .slide1 .info_part h2 {
+    font-size: 23px;
+    margin-bottom: 16px;
+  }
+  .slider_sec .slide1 .info_part p {
+    font-size: 14px;
+  }
+  .slider_sec .slide2 p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+  .tariff_plans_wraper {
+    display: grid;
+    column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .tariff_plans_wraper .tariff_plan_row {
+    padding: unset;
+    box-shadow: unset;
+    background: unset;
+    padding: 30px 0;
+  }
+  .tariff_plans_sec {
+    margin-bottom: 115px;
+  }
+  .heading_section {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .tariff_plans_sec .heading_section {
+    margin-bottom: 45px;
+  }
+  .news_sec .heading_section {
+    margin-bottom: 45px;
+  }
+  .news_wraper {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 40px;
+  }
+  .center_btn {
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  .contact_sec .heading_section {
+    margin-bottom: 45px;
+  }
+  .payment_method_wraper .flex_payment .img_privat {
+    width: calc(45% - 30px);
+    margin-right: 30px;
+  }
+  .payment_method_wraper .flex_payment .text_part {
+    width: 55%;
+  }
+  .payment_method_wraper {
+    padding: 55px 50px 70px 50px;
+  }
+  .doc_col .doc_link {
+    margin-bottom: 13px;
+  }
+  .slider_sec .slide {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .header_inner .right_header_part {
+    display: none;
+    align-items: center;
+  }
+  .header_inner .mobile_header_part {
+    display: flex;
+    align-items: center;
+  }
+  .account_mobile {
+    background: #FFE2D5;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 22px;
+  }
+  .account_mobile svg {
+    width: 14px;
+    height: 14px;
+  }
+  .call_mobile {
+    width: 24px;
+    height: 24px;
+    margin-right: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .call_mobile img {
+    width: 100%;
+  }
+  .logo {
+    width: 98px;
+    height: 25px;
+  }
+  .tariff_plans_wraper {
+    grid-template-columns: 1fr;
+  }
+  footer {
+    border-top: unset;
+    background: #7700FF;
+  }
+  footer .footer_inner {
+    padding: 28px 0 40px;
+    align-items: unset;
+    flex-direction: column;
+  }
+  footer .footer_inner .footer_right_part {
+    display: block;
+    align-items: center;
+  }
+  footer .footer_inner .personal_account {
+    margin-right: 0;
+    margin-bottom: 28px;
+  }
+  footer .footer_inner .personal_account span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+  }
+  footer .footer_inner .personal_account svg path {
+    fill: #FC7536;
+  }
+  footer .menu {
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+  footer .menu .menu-item {
+    margin-right: 0;
+    width: calc(50% - 35px);
+    margin-bottom: 12px;
+  }
+  footer .menu .menu-item a {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .priv_pol {
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+  }
+  .contact_sec .contact_info {
+    display: none;
+  }
+  footer .contact_info {
+    display: block;
+  }
+  .contact_row h3 {
+    font-size: 18px;
+    line-height: 23px;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  .contact_row .link p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+  }
+  .contact_row p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+  }
+  .soc_media_wraper .soc_media {
+    margin-right: 23px;
+  }
+  .soc_media_wraper .soc_media span {
+    display: none;
+  }
+  .contact_info {
+    margin-bottom: 30px;
+  }
+  .slider_sec .slide2 {
+    padding: 90px 130px 70px;
+  }
+  .accordion_body .accordion_sec {
+    padding: 40px;
+  }
+  .doc_col {
+    margin-bottom: 100px;
+  }
+  .logo_footer_mobile {
+    display: block;
+    width: 98px;
+    margin-bottom: 50px;
+  }
+  footer .logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .heading_section {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .contact_sec .heading_section {
+    margin-bottom: 25px;
+    text-align: start;
+  }
+  .news_wraper {
+    grid-template-columns: 1fr;
+    grid-row-gap: 50px;
+  }
+  .news_wraper .news_row .date_public {
+    margin-bottom: 12px;
+  }
+  .news_wraper .news_row .date_public img {
+    display: none;
+  }
+  .news_wraper .news_row .date_public span {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 140%;
+    color: #5F5F5F;
+  }
+  .news_wraper .news_row .foto_news {
+    max-height: 160px;
+    display: block;
+    margin-bottom: 18px;
+  }
+  .news_wraper .news_row .title_news h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  .news_wraper .news_row .desc {
+    font-size: 14px;
+    margin-bottom: 9px;
+  }
+  .news_wraper .news_row .read_more_link {
+    font-size: 14px;
+  }
+  .coating_internet .heading_section {
+    margin-bottom: 25px;
+  }
+  .coating_internet {
+    margin-bottom: 67px;
+  }
+  .contact_sec_inner .help_wrap {
+    width: 100%;
+  }
+  .contact_sec_inner .help_wrap h3 {
+    font-size: 23px;
+    line-height: 29px;
+    margin-bottom: 14px;
+  }
+  .contact_sec_inner .help_wrap p {
+    margin-bottom: 20px;
+  }
+  .contact_sec_inner .help_wrap .purple_btn {
+    background: #FC7536;
+    padding: 16px 42px;
+  }
+  .slider_sec .slide1 {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .slider_sec .slide1 .img_slide {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+  }
+  .slider_sec .slide1 .info_part {
+    width: 100%;
+    padding: 28px 23px 50px;
+    align-items: center;
+    text-align: center;
+  }
+  .slider_sec .slide2 {
+    padding: 68px 43px;
+    background-size: cover;
+  }
+  .slider_sec .slide2 h3 {
+    display: none;
+  }
+  .slider_sec .slide2 .orange_btn {
+    display: flex;
+  }
+  .kind_page_wrap_inner .bread_crumbs {
+    top: 15%;
+  }
+  .heading_page {
+    font-size: 32px;
+    line-height: 38px;
+    color: #fff;
+  }
+  .img_kind_page {
+    width: 113px;
+    height: 123px;
+  }
+  .kind_page_wrap_inner {
+    padding: 43px 0 60px;
+  }
+  .news_page .kind_page_wrap {
+    margin-bottom: 50px;
+  }
+  .news_page .center_btn {
+    margin-top: 30px;
+    margin-bottom: 120px;
+  }
+  .payment_page .img_kind_page {
+    width: 155px;
+    height: 110px;
+  }
+  .sub_heading_page {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .payment_method_wraper {
+    padding: unset;
+    background: unset;
+    box-shadow: unset;
+    margin: 45px 0 120px;
+  }
+  .payment_method_wraper .title_payment img {
+    width: 27px;
+    height: 27px;
+  }
+  .payment_method_wraper .title_payment p {
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 5px;
+  }
+  .payment_method_wraper .title_payment {
+    margin-bottom: 27px;
+  }
+  .payment_method_wraper .flex_payment {
+    display: block;
+    margin-bottom: 0;
+  }
+  .payment_method_wraper .flex_payment .img_privat {
+    width: 100%;
+    margin-right: 0;
+    height: 50vh;
+    margin-bottom: 20px;
+  }
+  .payment_method_wraper .flex_payment .text_part {
+    width: 100%;
+  }
+  .payment_method_wraper .flex_payment .text_part p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .payment_method_wraper .flex_payment .text_part .top_block h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+  .payment_method_wraper .flex_payment .text_part .orange_btn {
+    padding: 16px 42px;
+  }
+  .orange_btn {
+    padding: 16px 42px;
+  }
+  .payment_method_mobile {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px #D8D8D8;
+    border-radius: 10px;
+    padding: 30px 24px 48px;
+    margin-bottom: 50px;
+  }
+  .payment_method_wraper .bottom_part .title_botoom_part {
+    display: block;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  .payment_method_wraper .bottom_part p {
+    font-weight: 300;
+    font-size: 13px;
+  }
+  .paym_met_flex .payment_method_col .name {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 13px;
+    text-align: center;
+  }
+  .paym_met_flex .payment_method_col .terminal {
+    width: 61px;
+    height: 68px;
+  }
+  .paym_met_flex .payment_method_col .privat24 {
+    width: 82px;
+    height: 47px;
+  }
+  .paym_met_flex .payment_method_col .mobile_pay {
+    width: 35px;
+    height: 68px;
+  }
+  .users_page .kind_page_wrap_inner .bread_crumbs {
+    top: 15%;
+    width: 100%;
+    justify-content: center;
+  }
+  .users_page .kind_page_wrap_inner .heading_page {
+    margin-bottom: 7px;
+    margin-top: 30px;
+  }
+  .flex_wrap .name_paragraph_wrap {
+    padding: 23px 21px;
+  }
+  .flex_wrap .name_paragraph_wrap span {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .doc_col {
+    margin-bottom: 80px;
+    margin-top: 22px;
+    padding-left: 0;
+  }
+  .doc_col .doc_link img {
+    width: 12px;
+    height: 15px;
+    margin-right: 8px;
+  }
+  .doc_col .doc_link span {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .accordion_body .heading_accordion_body {
+    font-size: 28px;
+    line-height: 31px;
+    margin-bottom: 8px;
+  }
+  .accordion_body .sub_heading_accord_body {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 55px;
+  }
+  .accordion_body .accordion_sec {
+    padding: 31px 25px;
+  }
+  .accordion_body .accordion_sec .name_sec span {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .accordion_body .accordion_sec .content {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .accordion_body .accordion_sec .name_sec .img_plus {
+    width: 15px;
+    height: 15px;
+  }
+  .accordion_body .accordion_sec .name_sec .img_minus {
+    width: 15px;
+  }
+  .single_news_page .kind_page_wrap_inner {
+    margin-bottom: 50px;
+  }
+  .single_news_page .kind_page_wrap_inner .heading_page {
+    margin-top: 55px;
+  }
+  .single_news_page .kind_page_wrap_inner .bread_crumbs {
+    top: 15%;
+  }
+  .single_news_page .kind_page_wrap_inner .data_tag {
+    display: none;
+  }
+  .single_post {
+    margin-bottom: 65px;
+  }
+  .single_post p {
+    font-size: 14px;
+    line-height: 130%;
+    margin-bottom: 15px;
+  }
+  .single_news_page .last_news {
+    margin-bottom: 100px;
+  }
+  .tariff_plans_wraper {
+    display: none;
+  }
+  .tariff_plans_wraper.mobile {
+    display: block;
+  }
+  .slick-slide .tariff_plan_row_inner {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px #D8D8D8;
+    border-radius: 10px;
+    padding: 47px 52px 45px;
+  }
+  .tariff_plans_wraper .tariff_plan_row .price {
+    font-size: 26px;
+    line-height: 31px;
+    margin-bottom: 12px;
+  }
+  .tariff_plans_wraper .tariff_plan_row .name_tariff {
+    font-size: 23px;
+    line-height: 31px;
+  }
+  .d_flex {
+    display: block;
+  }
+  .slider_sec .slide2 {
+    height: unset;
+  }
+  .slider_sec .slide {
+    height: unset;
+  }
+  .popup {
+    width: 100%;
+  }
+  .popup_connection.popup {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .payment_method_wraper .flex_payment .img_privat {
+    height: 30vh;
+  }
+}
