@@ -17,15 +17,15 @@
 					<img src="img/logo_header.svg" alt="">
 				</a>
 				<div class="right_header_part">
-					<ul class="menu">
-						<li class="menu-item"><a href="">Тарифи</a></li>
+					<ul class="menu desktop">
+						<li class="menu-item"><a href="index.html#tariff_plans_sec">Тарифи</a></li>
 						<li class="menu-item"><a href="news.html">Новини</a></li>
-						<li class="menu-item"><a href="">Покриття</a></li>
+						<li class="menu-item"><a href="index.html#coating_internet">Покриття</a></li>
 						<li class="menu-item"><a href="payment.html">Оплата</a></li>
 						<li class="menu-item"><a href="users_page.html">Користувачам</a></li>
-						<li class="menu-item"><a href="">Контакты</a></li>
+						<li class="menu-item"><a href="index.html#contact_sec">Контакты</a></li>
 					</ul>
-					<a href="" class="orange_btn">
+					<a href="#" class="orange_btn">
 						<svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M7.5 1.6C5.65905 1.6 4.16667 3.03269 4.16667 4.8C4.16667 6.56731 5.65905 8 7.5 8C9.34095 8 10.8333 6.56731 10.8333 4.8C10.8333 3.03269 9.34095 1.6 7.5 1.6ZM2.5 4.8C2.5 2.14903 4.73858 0 7.5 0C10.2614 0 12.5 2.14903 12.5 4.8C12.5 7.45097 10.2614 9.6 7.5 9.6C4.73858 9.6 2.5 7.45097 2.5 4.8ZM4.16667 12.8C2.78595 12.8 1.66667 13.8745 1.66667 15.2C1.66667 15.6418 1.29357 16 0.833333 16C0.373096 16 0 15.6418 0 15.2C0 12.9909 1.86548 11.2 4.16667 11.2H10.8333C13.1345 11.2 15 12.9909 15 15.2C15 15.6418 14.6269 16 14.1667 16C13.7064 16 13.3333 15.6418 13.3333 15.2C13.3333 13.8745 12.214 12.8 10.8333 12.8H4.16667Z" fill="white"/>
 						</svg>
@@ -51,13 +51,13 @@
 					</a>
 					<div class="gumb"></div>
 				</div>
-				<ul class="menu">
-					<li class="menu-item"><a href="">Тарифи</a></li>
+				<ul class="menu mobile">
+					<li class="menu-item"><a href="index.html#tariff_plans_sec">Тарифи</a></li>
 					<li class="menu-item"><a href="news.html">Новини</a></li>
-					<li class="menu-item"><a href="">Покриття</a></li>
+					<li class="menu-item"><a href="index.html#coating_internet">Покриття</a></li>
 					<li class="menu-item"><a href="payment.html">Оплата</a></li>
 					<li class="menu-item"><a href="users_page.html">Користувачам</a></li>
-					<li class="menu-item"><a href="">Контакты</a></li>
+					<li class="menu-item"><a href="index.html#contact_sec">Контакты</a></li>
 				</ul>
 			</div>
 		</div>
@@ -65,11 +65,15 @@
 
 	<div class="popup_call popup mfp-hide white-popup-block" id="popup_call">
 		<img class="close_popup" src="img/close_popup.svg" alt="">
-		<form action="">
+		<form action="" class="form_call">
 			<h3>Замовити зворотній дзвінок</h3>
 			<p>Замовте зворотній дзвінок і наші менеджери зв’яжуться з вами </p>
-			<input type="text" placeholder="Ваше Ім’я*">
-			<input type="text" placeholder="Номер телефона*">
+			<label for="">
+				<input type="text" placeholder="Ваше Ім’я*" name="first_name">
+			</label>
+			<label for="">
+				<input type="tel" name="phone" inputmode="numeric" class="phoneInput" placeholder="Номер телефона*" autocomplete="off" aria-invalid="false"  >
+			</label>
 			<button class="orange_btn"><span>Відправити</span></button>
 		</form>
 	</div>
