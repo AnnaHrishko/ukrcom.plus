@@ -154,12 +154,14 @@ body {
 .slider_sec .slide1 {
   display: flex;
 }
+.slider_sec .slide1 .d_flex {
+  background: #7700FF;
+}
 .slider_sec .slide1 .img_slide {
   width: 50%;
   object-fit: cover;
 }
 .slider_sec .slide1 .info_part {
-  background: #7700FF;
   width: 50%;
   display: flex;
   justify-content: center;
@@ -1238,4 +1240,36 @@ body .select2.select2-container.select2-container--default {
 
 body.modal-open {
   overflow: hidden;
+}
+
+.swiper.slider_sec .swiper-button-prev {
+  color: transparent;
+  background: url(../img/Vector.svg);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+}
+
+.swiper.slider_sec .swiper-button-next {
+  color: transparent;
+  background: url(../img/CaretRight.svg);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+}
+
+.swiper.tariff_plans_wraper.mobile .swiper-prev {
+  color: transparent;
+  background: url(../img/traffic_left_arrow.svg);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+}
+
+.swiper.tariff_plans_wraper.mobile .swiper-next {
+  color: transparent;
+  background: url(../img/traffic_right_arrow.svg);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
 }

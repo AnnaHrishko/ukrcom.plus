@@ -16,21 +16,41 @@ $('.gumb').click(function(){
 })
 
 $(".tariff_plans_wraper.mobile").slick({
-        dots: false,
-  infinite: true,
-  speed: 300,
+    dots: false,
+    infinite: true,
+    speed: 300,
+    autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
 });
 
 $(".slider_sec").slick({
-  dots: false,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  adaptiveHeight: true,
+    dots: false,
+    infinite: true,
+    speed: 300,
+    // autoplay: true,
+    adaptiveHeight: true,
+    fade: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
 });
+
+// var swiper = new Swiper('.swiper', {
+//   slidesPerView: 1,
+//   spaceBetween: 10,
+//   autoplay: true,
+//   speed: 2000,
+//   autoplay: false;
+//   // navigation: true;
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
+//     autoplay: {
+//      delay: 2000,
+//     },
+// })
+
 
 $(function () {
   $('.call_mobile').magnificPopup({
