@@ -29,6 +29,7 @@ $(".slider_sec").slick({
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
+  adaptiveHeight: true,
 });
 
 $(function () {
@@ -124,6 +125,9 @@ $(function() {
                 required: true,
                 emailRegex: true,
             },
+            "locality":{
+                required: true,
+            }
 
         },
         messages: {
@@ -137,8 +141,10 @@ $(function() {
             },
             "phone": {
                 required: "Обов'язковие поле для заповнювання",
-
             },
+            "locality":{
+                required: "Обов'язковие поле для заповнювання",
+            }
         },
     });
 });
@@ -166,4 +172,26 @@ $(function() {
             },
         },
     });
+});
+
+$("body").on("click",".click_item_menu",function(event){event.preventDefault();
+    var href = $(this).attr('href')
+    var id ='#'+href.split('#')[1]
+    if($(id).length > 0){
+        $([document.documentElement, document.body]).animate({
+      scrollTop: $(id).offset().top
+    }, 1000);
+    }  else{window.location.href = href}
+});
+
+
+$(document).ready(function() {
+    $('.select').select2();
+});
+
+
+$(".popup").on("show", function () {
+  $("body").addClass("modal-open");
+}).on("hidden", function () {
+  $("body").removeClass("modal-open")
 });
