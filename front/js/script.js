@@ -53,11 +53,63 @@ $(".slider_sec").slick({
 
 
 $(function () {
+  $('.orange_btn1').magnificPopup({
+    type: 'inline',
+    preloader: false,
+    focus: '#username',
+    modal: true,
+    callbacks: {
+    open: function() {
+       jQuery('body').addClass('magnificpopupnoscroll');
+    },
+    close: function() {
+       jQuery('body').removeClass('magnificpopupnoscroll');
+    }
+}
+  });
+  $(document).on('click', '.close_popup', function (e) {
+    e.preventDefault();
+    $.magnificPopup.close();
+  });
+});
+
+
+$(function () {
+  $('.orange_btn2').magnificPopup({
+    type: 'inline',
+    preloader: false,
+    focus: '#username',
+    modal: true,
+    callbacks: {
+    open: function() {
+       jQuery('body').addClass('magnificpopupnoscroll');
+    },
+    close: function() {
+       jQuery('body').removeClass('magnificpopupnoscroll');
+    }
+}
+  });
+  $(document).on('click', '.close_popup', function (e) {
+    e.preventDefault();
+    $.magnificPopup.close();
+  });
+});
+
+
+$(function () {
   $('.call_mobile').magnificPopup({
     type: 'inline',
     preloader: false,
     focus: '#username',
-    modal: true
+    modal: true,
+    callbacks: {
+    open: function() {
+       jQuery('body').addClass('magnificpopupnoscroll');
+    },
+    close: function() {
+       jQuery('body').removeClass('magnificpopupnoscroll');
+    }
+}
   });
   $(document).on('click', '.close_popup', function (e) {
     e.preventDefault();
@@ -71,7 +123,15 @@ $(function () {
     type: 'inline',
     preloader: false,
     focus: '#username',
-    modal: true
+    modal: true,
+    callbacks: {
+    open: function() {
+       jQuery('body').addClass('magnificpopupnoscroll');
+    },
+    close: function() {
+       jQuery('body').removeClass('magnificpopupnoscroll');
+    }
+}
   });
   $(document).on('click', '.close_popup', function (e) {
     e.preventDefault();
@@ -85,7 +145,15 @@ $(function () {
     type: 'inline',
     preloader: false,
     focus: '#username',
-    modal: true
+    modal: true,
+    callbacks: {
+    open: function() {
+       jQuery('body').addClass('magnificpopupnoscroll');
+    },
+    close: function() {
+       jQuery('body').removeClass('magnificpopupnoscroll');
+    }
+}
   });
   $(document).on('click', '.close_popup', function (e) {
     e.preventDefault();
@@ -98,7 +166,15 @@ $(function () {
     type: 'inline',
     preloader: false,
     focus: '#username',
-    modal: true
+    modal: true,
+    callbacks: {
+    open: function() {
+       jQuery('body').addClass('magnificpopupnoscroll');
+    },
+    close: function() {
+       jQuery('body').removeClass('magnificpopupnoscroll');
+    }
+}
   });
   $(document).on('click', '.close_popup', function (e) {
     e.preventDefault();
@@ -112,13 +188,22 @@ $(function () {
     type: 'inline',
     preloader: false,
     focus: '#username',
-    modal: true
+    modal: true,
+    callbacks: {
+    open: function() {
+       jQuery('body').addClass('magnificpopupnoscroll');
+    },
+    close: function() {
+       jQuery('body').removeClass('magnificpopupnoscroll');
+    }
+}
   });
   $(document).on('click', '.close_detail', function (e) {
     e.preventDefault();
     $.magnificPopup.close();
   });
 });
+
 
 $(function() {
     $.validator.addMethod("emailRegex", function(value, element) {
@@ -133,6 +218,7 @@ jQuery(function($){
 
 $(function() {
     $(".form_connection").validate({
+        ignore: [],
         rules: {
             "first_name": {
                 required: true,
@@ -167,6 +253,14 @@ $(function() {
             }
         },
     });
+});
+
+$(".select").on('change', function () {
+  $('.form').valid();
+});
+
+$("#receiver_name").select2().change(function() {
+    $(this).valid();
 });
 
 $(function() {
@@ -213,9 +307,3 @@ $(document).ready(function() {
     $('.select').select2();
 });
 
-
-$(".popup").on("show", function () {
-  $("body").addClass("modal-open");
-}).on("hidden", function () {
-  $("body").removeClass("modal-open")
-});

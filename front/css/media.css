@@ -258,6 +258,10 @@
   }
 }
 @media screen and (max-width: 900px) {
+  .slider_sec .slide1 .info_part .orange_btn {
+    display: block;
+    margin-top: 23px;
+  }
   .heading_section {
     font-size: 32px;
     line-height: 32px;
@@ -341,7 +345,7 @@
   .slider_sec .slide2 {
     padding: 68px 43px;
     background-size: cover;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     align-items: center;
     justify-content: center;

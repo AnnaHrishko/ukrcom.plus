@@ -181,6 +181,9 @@ body {
   line-height: 140%;
   color: #FFFFFF;
 }
+.slider_sec .slide1 .info_part .orange_btn {
+  display: none;
+}
 .slider_sec .slide2 {
   background-image: url(../img/bcg_flag_ukr.jpg);
   background-repeat: no-repeat;
@@ -987,6 +990,7 @@ body .slick-arrow {
   z-index: 3;
   background: url(../img/Vector.svg);
   background-repeat: no-repeat;
+  background-position: center;
   width: 32px;
   height: 32px;
   cursor: pointer;
@@ -998,6 +1002,7 @@ body .slick-arrow {
   z-index: 3;
   background: url(../img/CaretRight.svg);
   background-repeat: no-repeat;
+  background-position: center;
   width: 32px;
   height: 32px;
   cursor: pointer;
@@ -1015,6 +1020,7 @@ body .slick-arrow {
   z-index: 3;
   background: url(../img/traffic_left_arrow.svg);
   background-repeat: no-repeat;
+  background-position: center;
   width: 32px;
   height: 32px;
   cursor: pointer;
@@ -1026,6 +1032,7 @@ body .slick-arrow {
   z-index: 3;
   background: url(../img/traffic_right_arrow.svg);
   background-repeat: no-repeat;
+  background-position: center;
   width: 32px;
   height: 32px;
   cursor: pointer;
@@ -1115,6 +1122,7 @@ body .slick-arrow {
   position: absolute;
   top: 25px;
   right: 20px;
+  cursor: pointer;
 }
 
 .popup_connection.popup {
@@ -1243,8 +1251,8 @@ body .select2.select2-container.select2-container--default {
   line-height: 18px;
 }
 
-body.modal-open {
-  overflow: hidden;
+body.magnificpopupnoscroll {
+  overflow-y: hidden !important;
 }
 
 .locality_label {
