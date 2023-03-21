@@ -572,6 +572,11 @@
     font-size: 26px;
     line-height: 31px;
     margin-bottom: 12px;
+    font-weight: 500;
+  }
+  .tariff_plans_wraper .tariff_plan_row .price span {
+    font-weight: 600;
+    font-size: 26px;
   }
   .tariff_plans_wraper .tariff_plan_row .name_tariff {
     font-size: 23px;
@@ -633,6 +638,9 @@
   .popup {
     width: 65%;
   }
+  .slider_sec .slide1 .info_part h2 br {
+    display: block;
+  }
 }
 @media screen and (max-width: 500px) {
   .detail_tariff {
@@ -640,6 +648,14 @@
   }
   .popup {
     width: 70%;
+  }
+  .slider_sec .slick-prev {
+    width: 20px;
+    height: 20px;
+  }
+  .slider_sec .slick-next {
+    width: 20px;
+    height: 20px;
   }
 }
 @media screen and (max-width: 450px) {

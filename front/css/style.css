@@ -175,6 +175,9 @@ body {
   color: #FFFFFF;
   margin-bottom: 20px;
 }
+.slider_sec .slide1 .info_part h2 br {
+  display: none;
+}
 .slider_sec .slide1 .info_part p {
   font-weight: 400;
   font-size: 20px;
@@ -260,12 +263,16 @@ body {
   font-size: 42px;
 }
 .tariff_plans_wraper .tariff_plan_row .price {
-  font-weight: 700;
-  font-size: 32px;
+  font-weight: 400;
+  font-size: 28px;
   line-height: 41px;
   text-align: center;
   color: #000000;
   margin-bottom: 9px;
+}
+.tariff_plans_wraper .tariff_plan_row .price span {
+  font-weight: 700;
+  font-size: 38px;
 }
 .tariff_plans_wraper .tariff_plan_row .detali_link {
   font-weight: 400;
@@ -842,10 +849,6 @@ footer .footer_inner .personal_account span {
   display: flex;
   width: 170px;
   height: 170px;
-  border-radius: 50%;
-  font-size: 0;
-  border: 7px solid rgba(223, 224, 222, 0.4);
-  animation: 0.4s ease-out reverse;
   position: relative;
   margin: 30px 0 12px;
 }
@@ -854,6 +857,26 @@ footer .footer_inner .personal_account span {
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.progress {
+  background: radial-gradient(white 64%, transparent 51%), conic-gradient(transparent 0deg 220deg, gainsboro 220deg 360deg), conic-gradient(#FC7536 0deg, #7700FF 180deg);
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  transform: rotate(180deg);
+}
+
+.progress-50 {
+  background: radial-gradient(white 64%, transparent 51%), conic-gradient(transparent 0deg 180deg, gainsboro 180deg 360deg), conic-gradient(#FC7536 0deg, #7700FF 180deg);
+}
+
+.progress-60 {
+  background: radial-gradient(white 64%, transparent 51%), conic-gradient(transparent 0deg 220deg, gainsboro 220deg 360deg), conic-gradient(#FC7536 0deg, #7700FF 180deg);
+}
+
+.progress-90 {
+  background: radial-gradient(white 64%, transparent 51%), conic-gradient(transparent 0deg 320deg, gainsboro 320deg 360deg), conic-gradient(#FC7536 0deg, #7700FF 180deg);
 }
 
 .flex_wrap {
