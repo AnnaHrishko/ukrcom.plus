@@ -288,6 +288,13 @@ $(function() {
     });
 });
 
+if ($(window).width() < 900) {
+   $("body").on("click",".click_item_menu",function(event){event.preventDefault(); 
+        $('.gumb').trigger('click') 
+        $('.menu.mobile').removeClass('active')
+   });  
+}
+
 $("body").on("click",".click_item_menu",function(event){event.preventDefault();
     var href = $(this).attr('href')
     var id ='#'+href.split('#')[1]
