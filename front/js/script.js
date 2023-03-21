@@ -4,7 +4,7 @@
   $('.accordion_sec').click(function() {
     $('.accordion_sec').removeClass('active')
     $(this).addClass('active')
-    $(".content").hide();
+    $(".content").slideUp();
     $(this).find('.content').slideDown();
     return false;
   });
@@ -27,7 +27,7 @@ $(".tariff_plans_wraper.mobile").slick({
 $(".slider_sec").slick({
     dots: false,
     infinite: true,
-    speed: 300,
+    speed: 1200,
     // autoplay: true,
     adaptiveHeight: true,
     fade: true,
@@ -203,6 +203,10 @@ $("body").on("click",".click_item_menu",function(event){event.preventDefault();
     }, 1000);
     }  else{window.location.href = href}
 });
+
+$("body").on("click","#faq_click",function(event){event.preventDefault();
+    var id=$(this).attr('href'),top=$(id).offset().top;
+    $('body,html').animate({scrollTop:top},1000);});
 
 
 $(document).ready(function() {
