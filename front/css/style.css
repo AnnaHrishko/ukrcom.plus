@@ -1063,6 +1063,11 @@ body .slick-arrow {
   position: relative;
   width: 27%;
   margin: 0 auto;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.popup::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 .popup h3 {
   font-weight: 500;
@@ -1106,6 +1111,7 @@ body .slick-arrow {
   outline: none;
 }
 .popup select {
+  visibility: hidden;
   background: #EBEBEB;
   border-radius: 5px;
   border: unset;
