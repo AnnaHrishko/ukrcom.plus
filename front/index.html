@@ -4,10 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>UkrCom</title>
-	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/> -->
 	<link rel="stylesheet" href="css/slick.css"> 
-	<!-- <link rel="stylesheet" href="css/slick-theme.css"> -->
-	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
@@ -65,17 +63,16 @@
 			</div>
 		</div>
 	</header>
-
 	<div class="popup_call popup mfp-hide white-popup-block" id="popup_call">
 		<img class="close_popup" src="img/close_popup.svg" alt="">
-		<form action="" class="form_call">
+		<form action="/" class="form_call">
 			<h3>Замовити зворотній дзвінок</h3>
 			<p>Замовте зворотній дзвінок і наші менеджери зв’яжуться з вами </p>
-			<label for="">
-				<input type="text" placeholder="Ваше Ім’я*" name="first_name">
+			<label for="first_name_f_call">
+				<input type="text" placeholder="Ваше Ім’я*" name="first_name" id="first_name_f_call">
 			</label>
-			<label for="">
-				<input type="tel" name="phone" inputmode="numeric" class="phoneInput" placeholder="Номер телефона*" autocomplete="off" aria-invalid="false"  >
+			<label for="phoneInput_f_call">
+				<input type="tel" name="phone" inputmode="numeric" id="phoneInput_f_call" class="phoneInput" placeholder="Номер телефона*" autocomplete="off" aria-invalid="false"  >
 			</label>
 			<button class="orange_btn"><span>Відправити</span></button>
 		</form>
@@ -89,7 +86,7 @@
 						<h2>Шановні клієнти! <br>Зв'язок відновленно!</h2>
 						<p>Просимо вибачення за відсутність послуги. У зв'язку з бойовими діями був пошкоджений магістральний канал, що привело до перебою в роботі майже у всіх провайдерів в місті. Дякуємо за порозуміння!
 						</p>
-						<a href="#popup_conection"class="orange_btn orange_btn1">
+						<a href="#popup_conection" class="orange_btn orange_btn1">
 							<span>Підключити</span>
 						</a>
 					</div>
@@ -299,19 +296,19 @@
 
 <div class="popup_connection popup mfp-hide white-popup-block" id="popup_conection">
 	<img class="close_popup" src="img/close_popup.svg" alt="">
-	<form action="" class="form_connection form">
+	<form action="/" class="form_connection form">
 		<h3>Заявка на підключення тарифу 50/50</h3>
-		<label for="">
-			<input type="text" placeholder="Ваше Ім’я*" name="first_name">
+		<label for="first_name_f_cnct">
+			<input type="text" placeholder="Ваше Ім’я*" name="first_name" id="first_name_f_cnct">
 		</label>
-		<label for="">
-			<input type="tel" name="phone" inputmode="numeric" class="phoneInput" placeholder="Номер телефона*" autocomplete="off" aria-invalid="false"  >
+		<label for="phoneInput_f_cnct">
+			<input type="tel" name="phone" inputmode="numeric" id="phoneInput_f_cnct" class="phoneInput" placeholder="Номер телефона*" autocomplete="off" aria-invalid="false"  >
 		</label>
-		<label for="">
-			<input type="text" placeholder="Вкажіть свій e-mail" name="email">
+		<label for="email_f_cnct">
+			<input type="text" placeholder="Вкажіть свій e-mail" name="email" id="email_f_cnct">
 		</label>
-		<label for="" class="locality_label">
-			<select name="locality" class="select" autocomplete="off">
+		<label for="select_f_cnct" class="locality_label">
+			<select name="locality" class="select" autocomplete="off" id="select_f_cnct">
 				<option value="" selected disabled>Населенний пункт*</option>
 				<option value="Населенний пункт">Київ</option>
 				<option value="jkhghfcv">Херсон</option>

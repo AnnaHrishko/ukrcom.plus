@@ -4,10 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>UkrCom</title>
-	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/> -->
 	<link rel="stylesheet" href="css/slick.css"> 
-	<!-- <link rel="stylesheet" href="css/slick-theme.css"> -->
-	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
@@ -65,17 +63,16 @@
 			</div>
 		</div>
 	</header>
-
 	<div class="popup_call popup mfp-hide white-popup-block" id="popup_call">
 		<img class="close_popup" src="img/close_popup.svg" alt="">
-		<form action="" class="form_call">
+		<form action="/" class="form_call">
 			<h3>Замовити зворотній дзвінок</h3>
 			<p>Замовте зворотній дзвінок і наші менеджери зв’яжуться з вами </p>
-			<label for="">
-				<input type="text" placeholder="Ваше Ім’я*" name="first_name">
+			<label for="first_name_f_call">
+				<input type="text" placeholder="Ваше Ім’я*" name="first_name" id="first_name_f_call">
 			</label>
-			<label for="">
-				<input type="tel" name="phone" inputmode="numeric" class="phoneInput" placeholder="Номер телефона*" autocomplete="off" aria-invalid="false"  >
+			<label for="phoneInput_f_call">
+				<input type="tel" name="phone" inputmode="numeric" id="phoneInput_f_call" class="phoneInput" placeholder="Номер телефона*" autocomplete="off" aria-invalid="false"  >
 			</label>
 			<button class="orange_btn"><span>Відправити</span></button>
 		</form>

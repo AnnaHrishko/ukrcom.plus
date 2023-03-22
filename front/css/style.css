@@ -49,6 +49,10 @@ body {
   margin: 0;
 }
 
+header {
+  background: white;
+}
+
 .container {
   max-width: 1310px;
   width: 100%;
@@ -976,7 +980,6 @@ footer .contact_info {
   margin-left: -15px;
   padding: 24px 30px 21px;
   opacity: 0;
-  visibility: hidden;
 }
 .header_inner .menu.mobile.active {
   transform: translateY(0);
@@ -1282,7 +1285,7 @@ body.magnificpopupnoscroll {
   position: relative;
   margin-bottom: 36px !important;
 }
-.locality_label #locality-error {
+.locality_label .error {
   position: absolute;
   bottom: -15px;
   margin-bottom: 0;
