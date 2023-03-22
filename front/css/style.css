@@ -969,22 +969,14 @@ footer .contact_info {
 .header_inner .menu.mobile {
   display: block;
   position: absolute;
-  transition: 0.4s;
-  transform: translateY(-100px);
   position: absolute;
-  z-index: -2;
+  z-index: 0;
   top: 100%;
   background: #fff;
   left: 0;
   width: calc(100% + 30px);
   margin-left: -15px;
   padding: 24px 30px 21px;
-  opacity: 0;
-}
-.header_inner .menu.mobile.active {
-  transform: translateY(0);
-  visibility: visible;
-  opacity: 1;
 }
 .header_inner .menu.mobile .menu-item a {
   font-weight: 500;

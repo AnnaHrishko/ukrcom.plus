@@ -9,10 +9,10 @@
     return false;
   });
 
-
+$('.menu.mobile').hide()
 $('.gumb').click(function(){
-  $(this).toggleClass('active')
-  $('.menu').toggleClass('active')
+    $(this).toggleClass('active')
+    $('.menu.mobile').slideToggle()
 })
 
 $(".tariff_plans_wraper.mobile").slick({
@@ -289,10 +289,10 @@ $(function() {
 });
 
 if ($(window).width() < 900) {
-   $("body").on("click",".click_item_menu",function(event){event.preventDefault(); 
-        $('.gumb').trigger('click') 
-        $('.menu.mobile').removeClass('active')
-   });  
+    $("body").on("click",".menu.mobile .click_item_menu",function(event){event.preventDefault(); 
+         $('.gumb').trigger('click') 
+         $('.menu.mobile').removeClass('active')
+    });  
 }
 
 $("body").on("click",".click_item_menu",function(event){event.preventDefault();
