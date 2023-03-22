@@ -291,7 +291,6 @@ $(function() {
 if ($(window).width() < 900) {
     $("body").on("click",".menu.mobile .click_item_menu",function(event){event.preventDefault(); 
          $('.gumb').trigger('click') 
-         $('.menu.mobile').removeClass('active')
     });  
 }
 
