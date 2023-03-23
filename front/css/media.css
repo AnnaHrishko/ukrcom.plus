@@ -1,7 +1,4 @@
 @media screen and (max-width: 1375px) {
-  .detail_tariff {
-    width: 25%;
-  }
   .popup {
     width: 32%;
   }
@@ -98,14 +95,14 @@
   .slider_sec .slide {
     height: 400px;
   }
-  .detail_tariff {
-    width: 30%;
-  }
   .popup {
     width: 35%;
   }
 }
 @media screen and (max-width: 970px) {
+  .default_part {
+    width: 50%;
+  }
   .header_inner .right_header_part {
     display: none;
     align-items: center;
@@ -239,9 +236,6 @@
   }
   footer .logo {
     display: none;
-  }
-  .detail_tariff {
-    width: 35%;
   }
   .popup {
     width: 40%;
@@ -594,9 +588,6 @@
   .popup {
     width: 45%;
   }
-  .popup_connection.popup {
-    width: 100%;
-  }
   .tariff_plans_wraper .tariff_plan_row {
     padding: unset;
     box-shadow: unset;
@@ -605,47 +596,41 @@
   }
 }
 @media screen and (max-width: 790px) {
-  .detail_tariff {
-    width: 40%;
+  .default_part {
+    width: 70%;
   }
   .popup {
     width: 50%;
   }
 }
 @media screen and (max-width: 700px) {
-  .detail_tariff {
-    width: 45%;
-  }
   .popup {
     width: 55%;
+  }
+  .default_part {
+    width: 80%;
   }
 }
 @media screen and (max-width: 600px) {
   .payment_method_wraper .flex_payment .img_privat {
     height: 30vh;
   }
-  .detail_tariff {
-    width: 50%;
-  }
   .popup {
     width: 60%;
   }
 }
 @media screen and (max-width: 550px) {
-  .detail_tariff {
-    width: 55%;
-  }
   .popup {
     width: 65%;
   }
   .slider_sec .slide1 .info_part h2 br {
     display: block;
   }
+  .default_part {
+    width: 90%;
+  }
 }
 @media screen and (max-width: 500px) {
-  .detail_tariff {
-    width: 60%;
-  }
   .popup {
     width: 70%;
   }
@@ -657,27 +642,32 @@
     width: 20px;
     height: 20px;
   }
+  .default_part {
+    width: 100%;
+  }
+  .detail_tariff {
+    padding: 30px 15px;
+  }
 }
 @media screen and (max-width: 450px) {
-  .detail_tariff {
-    width: 65%;
-  }
   .popup {
     width: 80%;
   }
+  .detail_tariff {
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .detail_tariff .prg_row .name_parag {
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 420px) {
-  .detail_tariff {
-    width: 70%;
-  }
   .popup {
     width: 100%;
   }
 }
 @media screen and (max-width: 390px) {
-  .detail_tariff {
-    width: 75%;
-  }
   .tariff_plans_wraper .tariff_plan_row .name_tariff {
     font-size: 17px;
     line-height: 18px;
@@ -686,11 +676,14 @@
     font-size: 20px;
     line-height: 31px;
   }
+  .detail_tariff .prg_row .name_parag {
+    font-size: 10px;
+  }
+  .detail_tariff .prg_row .descr_prg {
+    font-size: 10px;
+  }
 }
 @media screen and (max-width: 360px) {
-  .detail_tariff {
-    width: 80%;
-  }
   .bread_crumbs li a {
     font-size: 12px;
   }
@@ -699,10 +692,5 @@
   }
   footer .menu .menu-item a {
     font-size: 14px;
-  }
-}
-@media screen and (max-width: 340px) {
-  .detail_tariff {
-    width: 90%;
   }
 }

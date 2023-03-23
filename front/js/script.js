@@ -183,26 +183,17 @@ $(function () {
 });
 
 
-$(function () {
-  $('.detali_link').magnificPopup({
-    type: 'inline',
-    preloader: false,
-    focus: '#username',
-    modal: true,
-    callbacks: {
-    open: function() {
-       jQuery('body').addClass('magnificpopupnoscroll');
-    },
-    close: function() {
-       jQuery('body').removeClass('magnificpopupnoscroll');
-    }
-}
-  });
-  $(document).on('click', '.close_detail', function (e) {
-    e.preventDefault();
-    $.magnificPopup.close();
-  });
-});
+
+$(document).on('click', '.detali_link', function (e){
+    if ($(this).text() == 'Деталі тарифу'){
+        $(this).text('Закрити деталі')
+      }
+      else {
+        $(this).text('Деталі тарифу')
+      }
+    $(this).parent().find(".default_part").toggleClass('active')
+})
+
 
 
 $(function() {
@@ -253,6 +244,11 @@ $(function() {
             }
         },
     });
+});
+
+
+$('.select').change(function() { 
+   $('.dop_part_inputs').toggleClass('active')  
 });
 
 $(".select").on('change', function () {
