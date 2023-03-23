@@ -119,6 +119,7 @@ header {
   border: 1px solid #FC7536;
   border-radius: 5px;
   text-decoration: none;
+  transition: 0.3s;
 }
 .orange_btn svg {
   width: 15px;
@@ -133,6 +134,9 @@ header {
   letter-spacing: 0.02em;
   color: #FFFFFF;
 }
+.orange_btn:hover {
+  box-shadow: 0px 10px 13px rgba(252, 117, 54, 0.2);
+}
 
 .purple_btn {
   display: flex;
@@ -142,6 +146,7 @@ header {
   background: #7700FF;
   border-radius: 5px;
   text-decoration: none;
+  transition: 0.3s;
 }
 .purple_btn svg {
   width: 18px;
@@ -154,6 +159,9 @@ header {
   line-height: 18px;
   text-align: center;
   color: #FFFFFF;
+}
+.purple_btn:hover {
+  box-shadow: 0px 10px 15px rgba(119, 0, 255, 0.2);
 }
 
 .slider_sec .slide {
@@ -324,7 +332,7 @@ header {
   border-radius: 10px;
 }
 .news_wraper .news_row .text_news_row {
-  width: 93%;
+  width: 92%;
 }
 .news_wraper .news_row .date_public {
   display: flex;
@@ -359,6 +367,11 @@ header {
   line-height: 140%;
   color: #5F5F5F;
   margin-bottom: 14px;
+  overflow: hidden;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 .news_wraper .news_row .read_more_link {
   font-weight: 500;
@@ -421,6 +434,7 @@ header {
 }
 .contact_sec_inner .help_wrap .purple_btn {
   display: inline-flex;
+  padding: 18px 36px;
 }
 
 .contact_row {
@@ -476,10 +490,23 @@ header {
   justify-content: center;
   border-radius: 50%;
   margin-right: 6px;
+  position: relative;
 }
 .soc_media_wraper .soc_media .bcg_soc_media svg {
   width: 15px;
   height: 15px;
+}
+.soc_media_wraper .soc_media .bcg_soc_media svg.viber {
+  width: 18px;
+  height: 18px;
+}
+.soc_media_wraper .soc_media svg.telegram {
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  width: 14px;
+  height: 14px;
 }
 .soc_media_wraper .soc_media span {
   font-weight: 300;
